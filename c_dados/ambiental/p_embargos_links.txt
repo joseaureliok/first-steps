@@ -1,0 +1,5 @@
+ARQUIVO:
+URL: https://dadosabertos.ibama.gov.br/dados/SIFISC/termo_embargo/termo_embargo/termo_embargo.csv
+
+STREAMLIT DOCS
+https://docs.streamlit.io/library/api-reference/charts/st.pydeck_chart
