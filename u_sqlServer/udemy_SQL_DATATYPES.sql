@@ -1,0 +1,19 @@
+--TIPOS DE DADOS
+
+--1.booleanos: por padrão é iniciado como NULO e pode receber 1 ou 0 => BIT
+--2.caractere: 
+	--tem tamanho fixo ou quantidade fixa de caracteres => CHAR; 
+	--tamanho variável de amplitude que pode ter o caractere, usando somente a quantidade exata, embora tenha reservado mais => VARCHAR ou NVARCHAR
+--3.números:
+	--#VALORES EXATOS
+	--sem valores fracionados => TINYINT (limite muito baixo, 1byte), SMALLINT(limite pouco baixo, 2bytes); INT (limite medio, 4bytes); BIGINT (limite grande, 8bytes) 
+	--valores exatos que permitem fracionamento, podendo ser especificada a escala decimal com os parâmetros (n digitos, n casas decimais) => NUMERIC ou DECIMAL
+	--#VALORES APROXIMADOS
+	--precisão aproximada de até 15 digitos após a vírgula =>REAL e FLOAT
+--4.temporais:
+	--ano, mes e dia => DATE
+	--ano, mes e dia + hora, minuto, segundo => DATETIME
+	--ano, mes e dia + hora, minuto, MILIsegundos => DATETIME2
+	--ano, mes e dia + hora, minuto, segundo + limite '1900-01-01:00:00:00 até 2079-06-06:23:59:59'=> SMALLDATETIME
+	--hora, minuto, segundo + limite '00:00:00 até 23:59:59'=> TIME 
+	--ano, mes e dia + hora, minuto, segundo + fuso horário => DATETIMEOFFSET
